@@ -44,6 +44,12 @@ body {
     color: #0316a7;
 }
 
+.lh-1 {
+    color: white !important;
+}
+
 .img-fluid {
     border-radius: 20px;
+    height: 200px !important;
+    width: 500px !important;
 }
