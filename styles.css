@@ -1,0 +1,23 @@
+body {
+    font-family: 'EXO 2';
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    background: radial-gradient(#00afd9, #0085ff, #006bff) no-repeat;
+    background-size: cover;
+}
+.me-auto {
+    margin-left: auto;
+}
+
+.btn {
+    border-radius: 25px;
+    width: 10rem;
+    --bs-btn-padding-y: .5rem; 
+    --bs-btn-padding-x: .5rem; 
+    --bs-btn-font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #00afd9;
+}
