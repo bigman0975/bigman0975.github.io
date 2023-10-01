@@ -1,13 +1,27 @@
 body {
     font-family: 'EXO 2';
+    color: whitesmoke;
     width: auto;
     font-size: 20px;
     font-weight: bold;
     background: radial-gradient(#00afd9, #0085ff, #006bff) no-repeat;
     background-size: cover;
 }
+
+.bg-body-tertiary {
+    background-color: #00aed900 !important;
+}
 .me-auto {
     margin-left: auto;
+}
+
+.me-auto li {
+    width: 150px;
+    text-align: center;
+}
+
+.dropdown {
+    list-style: none;;
 }
 
 .btn {
@@ -20,4 +34,12 @@ body {
 
 .btn:hover {
     background-color: #00afd9;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav-link {
+    color: white;
 }
