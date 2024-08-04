@@ -1,0 +1,39 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, hsl(176, 68%, 74%));
+    color: azure
+}
+
+form {
+    background-color: #7F7FD5;
+    border-radius: 15px;
+    padding: 20px;
+    width: 600px;
+    min-width: 300px;
+    margin: 20px auto;
+}
+
+fieldset {
+    border: none;
+    margin: 20px 0;
+}
+
+header {
+    text-align: center;
+}
+
+label input {
+    width: 100%;
+    margin: 10px auto;
+    border:0;
+    border-radius: 2px;
+    height: 1.5em;
+    background-color: #86A8E7;
+}
+
+textarea {
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    background-color: #86A8E7;
+}
