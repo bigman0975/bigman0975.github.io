@@ -59,4 +59,5 @@ textarea {
 
     padding: 5px;
     background-color: #86A8E7;
+    resize: none;
 }
