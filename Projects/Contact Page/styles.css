@@ -1,6 +1,6 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background: linear-gradient(to right, #7f7fd5, #86a8e7, hsl(176, 68%, 74%));
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgb(0, 212, 255) 100%);
     color: azure;
     font-size: 25px;
     font-weight: 700;
@@ -10,7 +10,7 @@ input[type="text"],input[type="email"], input[type="tel"], textarea {
 
     width: 100%;
     margin: 20px auto;
-    background-color: #86A8E7;
+    background-color: #41414169;
     border: 0;
     border-radius: 5px;
     color: white;
@@ -32,12 +32,12 @@ input:focus, textarea:focus {
 
 input:hover, textarea:hover{
 
-    background-color: rgb(134, 168, 231, 30%);
+    background-color: rgba(134, 168, 231, 0.205);
 }
 
 form {
 
-    background-color: #7F7FD5;
+    background-color: rgba(13, 128, 151, 0.596);
     border-radius: 15px;
     padding: 20px;
     width: 600px;
@@ -58,6 +58,24 @@ header {
 textarea {
 
     padding: 5px;
-    background-color: #86A8E7;
+    background-color: #41414169;
     resize: none;
+}
+
+.Submit {
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+    height: 2.5rem;
+    border-radius: 7px;
+    border: 0;
+    background-color: #41414169;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.Submit:hover {
+    background-color: rgba(134, 168, 231, 0.205);
 }

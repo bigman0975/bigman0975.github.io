@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+</head>
+<body>
+    <header>
+        <h1>Customer Satisfaction Survey</h1>
+        <p>Please fill out this form to help us better assist you in the future!</p>
+    </header>
+    <form action="post">
+        <fieldset>
+            <label for="name">Full Name <input type="text" name="name" id="name"></label>
+            <label for="email">Email Address: <input type="email" name="email" id="email"></label>
+            <label for="phone">Phone Number: <input type="tel" name="phone" id="phone"></label>
+        </fieldset>
+        <fieldset>
+            <legend>How did you hear about us?</legend>
+            <label for="dropdown">
+                <select name="dropdown" id="dropdown">
+                    <option value="1">Select one..</option>
+                    <option value="2">Instagram</option>
+                    <option value="3">Facebook</option>
+                    <option value="4">Website</option>
+                    <option value="5">TV</option>
+                    <option value="6">Other</option>
+                </select>
+                <label for="other">If other please specify: <input type="text" name="other" id="other"></label>
+            </label>
+            <label for="radio">
+                <legend>Would you recommend us to a friend?</legend>
+                <input type="radio" name="yes" id="yes">Yes
+                <input type="radio" name="no" id="no">No
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>What would you like to see improved?</legend>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
