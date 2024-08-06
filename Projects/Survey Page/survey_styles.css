@@ -1,0 +1,116 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgb(0, 212, 255) 100%);
+    color: azure;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+label  {
+    display: block;
+}
+
+header {
+    margin: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+input[type="text"],input[type="email"], input[type="tel"], textarea, select {
+
+    width: 100%;
+    margin: 20px auto;
+    background-color: #41414169;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 0 7px;
+    height: 2.5em;
+
+}
+
+
+select {
+
+    margin: 30px 0;
+}
+
+textarea {
+
+    padding: 5px;
+    background-color: #41414169;
+    resize: none;
+    height: 100%;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    
+}
+
+input:hover, textarea:hover{
+
+    background-color: rgba(134, 168, 231, 0.205);
+}
+
+form {
+
+    background-color: rgba(13, 128, 151, 0.596);
+    border-radius: 15px;
+    padding: 20px;
+    width: 600px;
+    min-width: 300px;
+    margin: 20px auto;
+}
+
+legend {
+    margin:20px 0;
+}
+
+fieldset {
+
+    border: none;
+    margin: 20px 0;
+}
+
+.Contact, .referrer {
+    margin-bottom: 50px
+}
+
+.radio-label {
+    padding: 50px 0;
+}
+
+.radio, input[type="checkbox"] {
+    min-height: 1.5em;
+    min-width: 1.5em;
+    margin: 20px 0;
+    margin-right: 20px;
+    box-shadow: 0px 1px 3px, inset 0px -11px 10px -12px;
+}
+
+
+
+.Submit {
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+    height: 2.5rem;
+    border-radius: 7px;
+    border: 0;
+    background-color: #41414169;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.Submit:hover {
+    background-color: rgba(134, 168, 231, 0.205);
+}
+
+
+
+
+

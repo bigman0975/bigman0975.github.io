@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgb(0, 212, 255) 100%);
+    color: azure;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    border: 20px solid black;
+    padding: 50px;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    
+    border: 2px solid white;
+    width: 100%;
+    max-width: 500px;
+        
+}
