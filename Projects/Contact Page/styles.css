@@ -58,6 +58,7 @@ header {
 textarea {
 
     padding: 5px;
+<<<<<<< HEAD
     background-color: #41414169;
     resize: none;
 }
@@ -78,4 +79,8 @@ textarea {
 
 .Submit:hover {
     background-color: rgba(134, 168, 231, 0.205);
+=======
+    background-color: #86A8E7;
+    resize: none;
+>>>>>>> b1b5af26085a71137ce91c03418d7ab5ed804c72
 }
