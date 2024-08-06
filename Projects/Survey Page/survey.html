@@ -11,44 +11,46 @@
         <h1>Customer Satisfaction Survey</h1>
         <p>Please fill out this form to help us better assist you in the future!</p>
     </header>
-    <form action="post">
-        <fieldset class="Contact">
-            <label for="name">Full Name <input type="text" name="name" id="name"></label>
-            <label for="email">Email Address: <input type="email" name="email" id="email"></label>
-            <label for="phone">Phone Number: <input type="tel" name="phone" id="phone"></label>
-        </fieldset>
-        <fieldset class="referrer">
-            <legend>How did you hear about us?</legend>
-            <label for="dropdown">
-                <select name="dropdown" id="dropdown">
-                    <option value="1">Select one..</option>
-                    <option value="2">Instagram</option>
-                    <option value="3">Facebook</option>
-                    <option value="4">Website</option>
-                    <option value="5">TV</option>
-                    <option value="6">Other</option>
-                </select>
-                <label for="other-1">If other please specify: <input type="text" name="other-1" id="other-1"></label>
-            </label>
-            <label class="radio-label" for="radio">
-                <legend>Would you recommend us to a friend?</legend>
-                <label for="yes"><input class="radio" type="radio" name="recommend" value="yes">Yes</label>
-                <label for="no"><input class="radio" type="radio" name="recommend" value="no">No</label>
-            </label>
-        </fieldset>
-        <fieldset class="improve">
-            <legend>What would you like to see improved?</legend>
-            <label for="custser"><input type="checkbox" name="custser" id="custser"> Customer Service</label>
-            <label for="Access"><input type="checkbox" name="Access" id="Access"> Accessability</label>
-            <label for="comm"><input type="checkbox" name="comm" id="comm"> Communication</label>
-            <label for="serv"><input type="checkbox" name="serv" id="serv"> Service Times</label>
-            <label for="other"><input type="checkbox" name="other" id="other"> Other: <input type="text" name="other" id="other"></label>
-        </fieldset>
-        <fieldset>
-            <legend>Any other comments or concerns?</legend>
-            <textarea name="comments" id="comments" rows="10"></textarea>
-        </fieldset>
-        <button class="Submit" type="submit">Submit</button>
-    </form>
+    <main>
+        <form action="post">
+            <fieldset class="Contact">
+                <label for="name">Full Name <input type="text" name="name" id="name"></label>
+                <label for="email">Email Address: <input type="email" name="email" id="email"></label>
+                <label for="phone">Phone Number: <input type="tel" name="phone" id="phone"></label>
+            </fieldset>
+            <fieldset class="referrer">
+                <legend>How did you hear about us?</legend>
+                <label for="dropdown">
+                    <select name="dropdown" id="dropdown">
+                        <option value="1">Select one..</option>
+                        <option value="2">Instagram</option>
+                        <option value="3">Facebook</option>
+                        <option value="4">Website</option>
+                        <option value="5">TV</option>
+                        <option value="6">Other</option>
+                    </select>
+                    <label for="other-1">If other please specify: <input type="text" name="other-1" id="other-1"></label>
+                </label>
+                <label class="radio-label" for="radio">
+                    <legend>Would you recommend us to a friend?</legend>
+                    <label for="yes"><input class="radio" type="radio" name="recommend" value="yes">Yes</label>
+                    <label for="no"><input class="radio" type="radio" name="recommend" value="no">No</label>
+                </label>
+            </fieldset>
+            <fieldset class="improve">
+                <legend>What would you like to see improved?</legend>
+                <label for="custser"><input type="checkbox" name="custser" id="custser"> Customer Service</label>
+                <label for="Access"><input type="checkbox" name="Access" id="Access"> Accessability</label>
+                <label for="comm"><input type="checkbox" name="comm" id="comm"> Communication</label>
+                <label for="serv"><input type="checkbox" name="serv" id="serv"> Service Times</label>
+                <label for="other"><input type="checkbox" name="other" id="other"> Other: <input type="text" name="other" id="other"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Any other comments or concerns?</legend>
+                <textarea name="comments" id="comments" rows="10"></textarea>
+            </fieldset>
+            <button class="Submit" type="submit">Submit</button>
+        </form>    
+    </main>        
 </body>
 </html>
